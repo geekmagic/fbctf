@@ -47,9 +47,9 @@ class IndexController extends Controller {
         );
     } else {
       $welcome_msg =
-        'Welcome to the '.
-        $custom_org->getValue().
-        ' Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.';
+        tr('Welcome to the ').
+        tr($custom_org->getValue()).
+        tr(' Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.');
     }
     return
       <div class="fb-row-container full-height fb-scroll">

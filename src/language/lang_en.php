@@ -5,6 +5,8 @@ $translations = array(
   'date and time format' =>
     'H:i:s D m/d/Y', //used by date() function
   //Translations for IndexController
+  'CTF' =>
+    'CTF',
   'Facebook CTF' =>
     'Facebook CTF',
   'Conquer the world' =>
@@ -13,6 +15,10 @@ $translations = array(
     'Play',
   'Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.' =>
     'Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.',
+  'Welcome to the ' =>
+    'Welcome to the ',
+  ' Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.' =>
+    ' Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.',
   'Get ready for the CTF to start and access the gameboard now!' =>
     'Get ready for the CTF to start and access the gameboard now!',
   'Gameboard' =>
